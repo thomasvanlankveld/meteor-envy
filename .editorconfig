@@ -1,0 +1,42 @@
+# Cell[0] Editorconfig
+#
+# Compatible with Ember cli's generated editorconfig @2014-12
+
+root = true
+
+# Defaults
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+
+# HyperText
+[{*.html,*.hbs,*.blade.php,*.html.twig}]
+indent_size = 2
+
+# Styling
+[{*.css,*.less,*.sass,*.scss}]
+indent_size = 2
+
+# JavaScript
+[{*.js,*.json}]
+indent_size = 2
+
+# PHP
+[*.php]
+indent_size = 4
+
+# XML, YML
+[{*.xml,*.yml}]
+indent_size = 4
+
+# Configuration
+[{.editorconfig,.jshintrc,.bowerrc}]
+indent_size = 2
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
