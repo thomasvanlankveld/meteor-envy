@@ -10,7 +10,7 @@ Package.describe({
 Package.onUse(function (api) {
   api.versionsFrom("0.9.0");
   api.use("underscore", "server");
-  api.use("mrt:allow-env");
+  api.use("mrt:allow-env@0.0.1");
   api.addFiles("client.js", "client");
   api.addFiles("server.js", "server");
 });
